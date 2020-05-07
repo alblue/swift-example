@@ -6,12 +6,13 @@
         {
             "label": "Swift Build",
             "type": "shell",
-            "command": "swift package build"
+            "command": "swift build",
+            "problemMatcher": []
         },
         {
             "label": "Swift Test",
             "type": "shell",
-            "command": "swift package test",
+            "command": "swift test",
             "problemMatcher": []
         }
     ]
